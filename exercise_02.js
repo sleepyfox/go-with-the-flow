@@ -1,0 +1,5 @@
+// @flow 
+
+//// Inference ///////////////////////////////////////////////////////////
+const baz = x => x.length;
+var res = baz('Hello') + baz(42);

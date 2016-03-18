@@ -1,0 +1,26 @@
+{
+  "name": "flow-kata",
+  "version": "1.0.0",
+  "description": "A simple kata to get people comfortable with using FlowType and its tooling",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "keywords": [
+    "kata",
+    "dojo",
+    "tdd",
+    "node",
+    "js",
+    "javascript",
+    "flow"
+  ],
+  "author": "@sleepyfox",
+  "license": "CC-BY-NC-SA-4.0",
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-plugin-transform-flow-strip-types": "^6.7.0",
+    "flow-bin": "^0.22.1"
+  }
+}
