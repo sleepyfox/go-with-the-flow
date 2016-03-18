@@ -1,5 +1,5 @@
 # Introduction to Flow
-This is a sinmple piece of boilerplate that gives some examples of how to get started with Facebook's 'flow' gradual typing system for JavaScript.
+This is a simple piece of boilerplate that gives some examples of how to get started with Facebook's [Flow](http://flowtype.org/) gradual typing system for JavaScript.
 
 ## Dependencies
 To install dependencies:
