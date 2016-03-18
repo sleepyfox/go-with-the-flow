@@ -4,7 +4,6 @@
   "description": "A simple kata to get people comfortable with using FlowType and its tooling",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
     "flow": "flow; test $? -eq 0 -o $? -eq 2"
   },
   "keywords": [

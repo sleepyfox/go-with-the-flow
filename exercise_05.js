@@ -9,4 +9,5 @@ function total_nums(numbers: Array<number>) {
   return result;
 }
 
+// What do we need to do to make our code pass the type-check?
 total_nums([1, 2, 3, 'hello']);
